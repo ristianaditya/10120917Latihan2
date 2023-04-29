@@ -3,7 +3,7 @@
 <!--Nim   : 10120917-->
 <!--Nama  : Ristian Aditya-->
 <!--Kelas : IF10K-->
-<!--TGL   : 26-4-2023-->
+<!--TGL   : 29-4-2023-->
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,17 +11,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
-
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imageView2"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewAtas"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen_150dp"
+        android:layout_height="@dimen/dimen_153dp"
         android:scaleType="fitXY"
+        app:cardBackgroundColor="#E4E4E4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_header_side_menu" />
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_150dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_header_side_menu" />
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -29,10 +37,10 @@
         android:layout_height="@dimen/dimen_104dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="@dimen/dimen_150dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="@+id/cardViewAtas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/cardViewAtas">
 
         <androidx.cardview.widget.CardView
             android:layout_width="@dimen/dimen_95dp"
@@ -56,6 +64,7 @@
         android:layout_height="@dimen/dimen_30dp"
         android:layout_marginStart="@dimen/dimen_15dp"
         android:layout_marginTop="@dimen/dimen_15dp"
+        android:elevation="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_side_menu" />
@@ -65,6 +74,7 @@
         android:layout_width="@dimen/dimen_35dp"
         android:layout_height="@dimen/dimen_30dp"
         android:layout_marginTop="@dimen/dimen_15dp"
+        android:elevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -135,7 +145,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:text="@string/titleBlood"
-                android:textAppearance="@style/textBodyProfile"
+                android:textAppearance="@style/textRobotoLight"
                 android:textSize="@dimen/dimen_11sp" />
         </LinearLayout>
 
@@ -163,7 +173,7 @@
                 android:gravity="center"
                 android:text="@string/titleReceived"
                 android:textColor="@color/black"
-                android:textAppearance="@style/textBodyProfile"
+                android:textAppearance="@style/textRobotoLight"
                 android:textSize="@dimen/dimen_11sp" />
         </LinearLayout>
 
@@ -189,7 +199,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textAppearance="@style/textBodyProfile"
+                android:textAppearance="@style/textRobotoLight"
                 android:text="@string/titleThank"
                 android:textColor="@color/black"
                 android:textSize="@dimen/dimen_11sp" />

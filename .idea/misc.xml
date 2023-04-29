@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/activity_almost.xml" value="0.67" />
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/activity_register.xml" value="0.35144927536231885" />
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/activity_verify.xml" value="0.67" />
+        <entry key="..\:/PROJECT_ANDROID/10120917Latihan2/app/src/main/res/layout/spinner_item.xml" value="0.18541666666666667" />
         <entry key="..\:/PROJECT_ANDROID/Lat2IF10K10120917RistianAditya/app/src/main/res/drawable/button_outline_login.xml" value="0.2905" />
         <entry key="..\:/PROJECT_ANDROID/Lat2IF10K10120917RistianAditya/app/src/main/res/font-v26/custom_font.xml" value="0.39166666666666666" />
         <entry key="..\:/PROJECT_ANDROID/Lat2IF10K10120917RistianAditya/app/src/main/res/font-v26/font.xml" value="0.39166666666666666" />
@@ -24,5 +30,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
